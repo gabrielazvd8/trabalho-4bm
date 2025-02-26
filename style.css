@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #F4F4F4;
     font-family: 'arial', sans-serif;
+    
 }
 header {
     background-color: #0088ff;
@@ -17,6 +18,27 @@ header .div-conteudo{
 header img{
     border-radius: 0 0 5px 5px;
 }
-.carousel-inner img{
+header hr{
+    z-index: 10;
     width: 90%;
+    height: 2px;
+    background-image: linear-gradient(to right, yellow , orange, red, rgb(255, 0, 106), purple, blue, rgb(0, 225, 255), blue, rgb(0, 255, 153), green);
+}
+.container{
+    width: 95%;
+    padding: 20px;
+}
+.nav{
+    float: left;
+}
+.img-carrossel{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.botao-right{
+    justify-content: right;
+}
+.botao-left{
+    justify-content: left;
 }
