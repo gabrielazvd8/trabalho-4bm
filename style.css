@@ -11,6 +11,8 @@ header {
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 header .div-conteudo{
     width: 90%;
@@ -21,8 +23,11 @@ header img{
 header hr{
     z-index: 10;
     width: 90%;
-    height: 2px;
+    height: 5px;
+    background-color: black;
+    border: none;
     background-image: linear-gradient(to right, yellow , orange, red, rgb(255, 0, 106), purple, blue, rgb(0, 225, 255), blue, rgb(0, 255, 153), green);
+    position: absolute;
 }
 .container{
     width: 95%;
