@@ -11,30 +11,31 @@ header {
     color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: relative;
-    z-index: 1;
 }
 header .div-conteudo{
     width: 90%;
+    margin-top: 0px;
 }
 header img{
     border-radius: 0 0 5px 5px;
 }
-header hr{
-    z-index: 10;
+header .line{
     width: 90%;
-    height: 5px;
-    background-color: black;
-    border: none;
-    background-image: linear-gradient(to right, yellow , orange, red, rgb(255, 0, 106), purple, blue, rgb(0, 225, 255), blue, rgb(0, 255, 153), green);
+    height: 6px;
+    background-image: linear-gradient(to right, yellow , orange, red, rgb(255, 0, 106), purple, blue, rgb(0, 225, 255), blue, rgb(0, 173, 64), green);
     position: absolute;
+    margin-left: 75px;
+    margin-top: 52px;
 }
 .container{
     width: 95%;
     padding: 20px;
 }
 .nav{
-    float: left;
+    display: flex;
+
 }
 .img-carrossel{
     border-radius: 10px;
