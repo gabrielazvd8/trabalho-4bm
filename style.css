@@ -16,7 +16,7 @@ header {
 }
 header .div-conteudo{
     width: 90%;
-    height: 250px;
+    height: 300px;
     margin-top: 0px;
     margin-left: 60px;
 }
@@ -29,7 +29,7 @@ header .img-principal{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 90px;
     font-size: 15px;
 }
 .justify-content-end{
@@ -45,7 +45,11 @@ header .nav-link :hover{
     text-decoration: underline;
     transition: 1s all;
 }
+.container-nav{
+    display: flex;
+}
 .mascote{
+    margin-top: 25px;
     height: 186.5px;
     padding: 0;
 }
