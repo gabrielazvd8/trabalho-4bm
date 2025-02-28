@@ -1,9 +1,14 @@
+/*configuração geral do body*/
+
 body {
     margin: 0;
     background-color: #F4F4F4;
     font-family: 'arial', sans-serif;
     
 }
+
+/*container do enunciado do site*/
+
 header {
     background-color: #0088ff;
     width: 100%;
@@ -53,14 +58,17 @@ header .nav-link :hover{
     display: flex;
     align-items: flex-start;
 }
-.mascote{
+.img-logo .mascote{
     margin-top: -8.5px;
     height: 170px;
     padding: 0;
 }
-.logo{
+.img-logo .logo{
     width: 250px;
 }
+
+/*linha gradiente do site - enunciado*/
+
 header .line{
     width: 90%;
     height: 6px;
@@ -70,10 +78,15 @@ header .line{
     margin-top: 0px;
 }
 
+/*container que contém todo o assunto da loja*/
+
 .container{
     width: 95%;
     padding: 20px;
 }
+
+/*configurações adicionais ao botstrap do carrossel*/
+
 .img-carrossel{
     border-radius: 10px;
     width: 100%;
